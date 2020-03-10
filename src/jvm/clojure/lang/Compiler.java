@@ -9086,3 +9086,10 @@ static IPersistentCollection emptyVarCallSites(){return PersistentHashSet.EMPTY;
 		};
     }
 }
+
+
+static IPersistentCollection empty() {
+	String simple() {
+		return "Hello World"
+	}
+}
