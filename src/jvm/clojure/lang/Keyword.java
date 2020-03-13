@@ -63,6 +63,61 @@ private Keyword(Symbol sym){
 	hasheq = sym.hasheq() + 0x9e3779b9;
 }
 
+
+void nastyIfs() {
+      if (true) {
+        if (false) {
+          if (true) {
+            if (false) {
+              if (true) {
+                if (false) {
+                }
+              }
+            }
+          }
+        }
+      }
+      if (true) {
+        if (false) {
+          if (true) {
+            if (false) {
+              if (true) {
+                if (false) {
+                }
+              }
+            }
+          }
+        }
+      }
+      if (true) {
+        if (false) {
+          if (true) {
+            if (false) {
+              if (true) {
+                if (false) {
+                }
+              }
+            }
+          }
+        }
+      }
+      if (true) {
+        if (false) {
+          if (true) {
+            if (false) {
+              if (true) {
+                if (false) {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}
+
+
 public static Keyword find(Symbol sym){
     Reference<Keyword> ref = table.get(sym);
     if (ref != null)
