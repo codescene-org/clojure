@@ -308,5 +308,20 @@ public Object applyTo(ISeq arglist) {
 	return AFn.applyToHelper(this, arglist);
 }
 
+void innocentIfs() {
+      if (true) {
+        if (false) {
+          if (true) {
+            if (true) {
+              if (false) {
+                if (true) {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
 
 }
