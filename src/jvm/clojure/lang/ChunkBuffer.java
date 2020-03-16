@@ -23,6 +23,16 @@ public ChunkBuffer(int capacity){
 
 public void add(Object o){
 	buffer[end++] = o;
+
+	if (x) {
+		if (y) {
+			if (x) {
+				if (rt) {
+					return;
+				}
+			} 
+		}
+	}
 }
 
 public IChunk chunk(){
